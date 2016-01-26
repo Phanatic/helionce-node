@@ -1,7 +1,7 @@
 FROM hwestphal/nodebox
 
-COPY ./ /src
-WORKDIR /src
+COPY ./ $HOME
+WORKDIR $HOME
 
 RUN npm install
 
